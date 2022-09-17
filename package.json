@@ -1,0 +1,21 @@
+{
+  "name": "catalunyaestat-theme",
+  "version": "1.0.0",
+  "description": "CatalunyaEstat Theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatalunyaEstat/catalunyaestat-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatalunyaEstat/catalunyaestat-theme/issues"
+  },
+  "homepage": "https://github.com/CatalunyaEstat/catalunyaestat-theme#readme",
+  "dependencies": {
+    "admin-lte": "github:ColorlibHQ/AdminLTE"
+  }
+}

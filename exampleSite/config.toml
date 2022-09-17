@@ -1,0 +1,37 @@
+baseurl = "http://example.com"
+languageCode = "es-ca"
+title = "Example Site"
+disqusShortname = "catalunyaestat-theme"
+DefaultContentLanguage = "en"
+hasCJKLanguage = false
+googleAnalytics = ""
+
+[module]
+[module.hugoVersion]
+
+[[module.imports]]
+# This is replaced in go.mod to point to the directory above.
+path="github.com/CatalunyaEstat/catalunyaestat-theme"
+
+[[module.mounts]]
+  source = "node_modules"
+  target = "assets/node_modules"
+
+[[module.mounts]]
+  source = "node_modules/admin-lte/plugins/fontawesome-free/webfonts"
+  target = "static/node_modules/admin-lte/plugins/fontawesome-free/webfonts"  
+
+[languages.en]
+  languageName = "English"
+  title = "Example Site"
+  weight = 1
+
+[languages.ca]
+  languageName = "Catal[a"
+  title = "Cat Example Site"
+  weight = 2
+
+[permalinks]
+
+[params]
+
